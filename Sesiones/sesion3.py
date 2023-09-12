@@ -1,5 +1,9 @@
 import os
 os.system("cls")
+
+a = "2"
+b = eval(a)
+print(type(b))
 # ejercicio 1
 
 # """Funciones int y eval"""
@@ -21,24 +25,24 @@ os.system("cls")
 
 # numR =eval(input("Dime un numero "))
 # type(numR)
-#----------------------------------------------------------
+# ----------------------------------------------------------
 
-#ejercicio 2
+# ejercicio 2
 
 # """Funcion round o redondeo"""
 
 # num = 15.2565
 # round(num, 3)
 
-#-----------------------------------------------------------
-#Ejercicio 3
+# -----------------------------------------------------------
+# Ejercicio 3
 
 # """Funcion abs o valor absoluto"""
 # num = -15.90
 # print(abs(num))
 
-#-----------------------------------------------------------
-#ejercicio 4
+# -----------------------------------------------------------
+# ejercicio 4
 
 # """Funcion max y min"""
 
@@ -50,8 +54,8 @@ os.system("cls")
 # print(Max)
 # print(Min)
 
-#------------------------------------------------------------
-#Ejercicio 5
+# ------------------------------------------------------------
+# Ejercicio 5
 
 # """Funcion pow o potencia"""
 
@@ -59,16 +63,16 @@ os.system("cls")
 
 # print(pow(x,y))
 
-#-------------------------------------------------------------
+# -------------------------------------------------------------
 
-#ejercicio 6
+# ejercicio 6
 
 # """Funcion format (Parecido a gotoxy)"""
 # x= 2563
 # y = 5456767
 # print(f"{format(x,'*>9')}\n {format(y,'*>9')}
-#---------------------------------------------------------------
-#ejercicio 7
+# ---------------------------------------------------------------
+# ejercicio 7
 
 # """Funciones de texto"""
 
@@ -82,9 +86,9 @@ os.system("cls")
 # print(name , edad , sep='@'*2)
 # print(name , edad , sep='@'*2, end='Fuck')
 # print(name , edad , sep='@'*2, end=': ')
-#------------------------------------------------------------------
-'''Funcion str'''
+# ------------------------------------------------------------------
+# '''Funcion str'''
 
-x=8
-y = str(x)
-print(type(y))
+# x = 8
+# y = str(x)
+# print(type(y))
