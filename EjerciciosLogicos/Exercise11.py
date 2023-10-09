@@ -4,8 +4,10 @@ fib = 0
 
 if(limit > 0):
     for i in range (limit):
-        print(f"[{fib}]")
         aux+=fib
         fib = aux - fib
+        result = fib
+        
+        print(f"{aux}+{fib} = {result}")
 else:
      print("The number must be edelry than 0")
