@@ -3,7 +3,6 @@ from os import system
 import random
 students = dict()
 
-
 def addStudent():
     id = random.randint(100, 999)
     name = input("Nombre: ")
@@ -12,7 +11,8 @@ def addStudent():
     avg = int(input("Promedio: "))
     price = int(input("Precio: "))
     student = Student(name, email, carrer, avg, price)
-    students[id] = student
+    students[id] = student #Dato principal es el id pero puede ser cambiado por ejemplo
+    #students[name] = student
 
 
 def isStudent(id):
